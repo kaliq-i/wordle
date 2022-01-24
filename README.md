@@ -35,3 +35,8 @@ $ docker run -d -p 3000:3000 notwordle
 ```
 open http://localhost:3000 in browser.
 
+
+_CHANGES IMPLEMENTED:_
+- Nothing saved to localstate
+- Random word everytime you refresh 
+

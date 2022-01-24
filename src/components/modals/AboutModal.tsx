@@ -9,7 +9,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500">
-        This is an open source clone of the game Wordle -{' '}
+        This is an open source clone of the game Wordle made by Hannah -{' '}
         <a
           href="https://github.com/hannahcode/wordle"
           className="underline font-bold"
@@ -23,6 +23,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         >
           play the original here
         </a>
+        . Minor tweaks were added to allow for more words per day.
       </p>
     </BaseModal>
   )
